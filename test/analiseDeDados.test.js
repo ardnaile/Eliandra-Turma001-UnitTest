@@ -237,4 +237,5 @@ describe("Classe AnaliseDeDados - Método calcularCorrelacao", () => {
         const conjunto = [1, 2, 3, 4, 5]
         expect(analiseDeDados.calcularCorrelacao(conjunto)).toEqual(0.9999999999999998);
     })
+    // comentário para testar actions
 })
