@@ -1,27 +1,29 @@
-# JEST Unit Tests
+# Prova de Testes Unitários com Jest
+A avaliação consistia em escrever os testes para a classe analiseDeDados.js
 
-## GitHub Actions
+## Começando
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+Para executar este projeto siga os passos abaixo:
 
-## SonarCloud
+1. Instalar o [Node JS](https://nodejs.org/) (version >= 20.x)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
+2. Instalar todas as dependências do projeto:
+```
+npm install
+```
 
-## Getting Started
+3. Comando para executar todos os testes:
+```
+npm run test
+```
 
-In order to execute this project you must follow the steps below:
+ 4. Comando para executar todos os testes com coverage:
+```
+npm run coverage
+```
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
+Todos os artefatos de execução podem ser encontrados em ./coverage. Se você quiser remover esses arquivos, execute `npm run clean`.
 
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
-
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
+## Estrutura do projeto
+* src: source code</li>
+* test: unit test files
